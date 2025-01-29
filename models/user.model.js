@@ -16,6 +16,9 @@ const userSchema = mongoose.Schema(
       required: true,
       minlength: 6, 
     },
+    image:{
+      type: String,
+    }
   },
 );
 
