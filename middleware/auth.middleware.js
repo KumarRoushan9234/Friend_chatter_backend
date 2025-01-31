@@ -1,7 +1,6 @@
 // protect route
 
 import jwt from "jsonwebtoken";
-import user from "../models/user.model.js";
 import User from "../models/user.model.js";
 
 export const protectRoute = async(req,res,next) => {
